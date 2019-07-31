@@ -1,7 +1,7 @@
 {application, qrcode,
  [{description, "QRCode Encoder"},
   {vsn, "1.0.3"},
-  {modules, [qrcode, qrcode_matrix, qrcode_params, qrcode_demo, qrcode_mask, qrcode_reedsolomon, gf256, bits, base32]},
+  {modules, [qrcode, qrcode_matrix, qrcode_demo, qrcode_mask, qrcode_reedsolomon, gf256, bits, base32]},
   {mod, {qrcode, []}},
   {registered, []},
   {env, []},
